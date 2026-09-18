@@ -1,0 +1,872 @@
+{
+  "companies": [
+    {
+      "name": "Northstar Cloud",
+      "domain": "northstarcloud.example",
+      "location": "Austin, USA",
+      "employee_range": "250-500",
+      "industry": "B2B SaaS"
+    },
+    {
+      "name": "MapleOps",
+      "domain": "mapleops.example",
+      "location": "Toronto, Canada",
+      "employee_range": "100-250",
+      "industry": "B2B SaaS"
+    },
+    {
+      "name": "SignalForge",
+      "domain": "signalforge.example",
+      "location": "New York, USA",
+      "employee_range": "500-1000",
+      "industry": "B2B SaaS"
+    },
+    {
+      "name": "BlueLedger",
+      "domain": "blueledger.example",
+      "location": "Boston, USA",
+      "employee_range": "250-500",
+      "industry": "FinTech SaaS"
+    },
+    {
+      "name": "HarborStack",
+      "domain": "harborstack.example",
+      "location": "Seattle, USA",
+      "employee_range": "100-250",
+      "industry": "DevOps SaaS"
+    },
+    {
+      "name": "CedarCRM",
+      "domain": "cedarcrm.example",
+      "location": "Vancouver, Canada",
+      "employee_range": "500-1000",
+      "industry": "Sales SaaS"
+    },
+    {
+      "name": "QuantumDesk",
+      "domain": "quantumdesk.example",
+      "location": "Chicago, USA",
+      "employee_range": "100-250",
+      "industry": "B2B SaaS"
+    },
+    {
+      "name": "PrairieSec",
+      "domain": "prairiesec.example",
+      "location": "Calgary, Canada",
+      "employee_range": "250-500",
+      "industry": "Cybersecurity SaaS"
+    },
+    {
+      "name": "OrbitHR",
+      "domain": "orbithr.example",
+      "location": "San Francisco, USA",
+      "employee_range": "500-1000",
+      "industry": "HR SaaS"
+    },
+    {
+      "name": "LumenFlow",
+      "domain": "lumenflow.example",
+      "location": "Denver, USA",
+      "employee_range": "100-250",
+      "industry": "Workflow SaaS"
+    },
+    {
+      "name": "AtlasIQ",
+      "domain": "atlasiq.example",
+      "location": "Miami, USA",
+      "employee_range": "250-500",
+      "industry": "Analytics SaaS"
+    },
+    {
+      "name": "RedwoodPay",
+      "domain": "redwoodpay.example",
+      "location": "San Diego, USA",
+      "employee_range": "500-1000",
+      "industry": "FinTech SaaS"
+    }
+  ],
+  "people": [
+    {
+      "company": "Northstar Cloud",
+      "name": "Maya Chen",
+      "title": "CTO"
+    },
+    {
+      "company": "Northstar Cloud",
+      "name": "Daniel Brooks",
+      "title": "VP Sales"
+    },
+    {
+      "company": "MapleOps",
+      "name": "Olivia Martin",
+      "title": "CISO"
+    },
+    {
+      "company": "MapleOps",
+      "name": "Ethan Roy",
+      "title": "VP Sales"
+    },
+    {
+      "company": "SignalForge",
+      "name": "Noah Williams",
+      "title": "CTO"
+    },
+    {
+      "company": "SignalForge",
+      "name": "Sophia Patel",
+      "title": "CISO"
+    },
+    {
+      "company": "BlueLedger",
+      "name": "Liam Carter",
+      "title": "CTO"
+    },
+    {
+      "company": "BlueLedger",
+      "name": "Emma Nguyen",
+      "title": "VP Sales"
+    },
+    {
+      "company": "HarborStack",
+      "name": "James Wilson",
+      "title": "CTO"
+    },
+    {
+      "company": "HarborStack",
+      "name": "Ava Singh",
+      "title": "CISO"
+    },
+    {
+      "company": "CedarCRM",
+      "name": "Lucas Brown",
+      "title": "VP Sales"
+    },
+    {
+      "company": "CedarCRM",
+      "name": "Isabella Lee",
+      "title": "CTO"
+    },
+    {
+      "company": "QuantumDesk",
+      "name": "Mason Davis",
+      "title": "CISO"
+    },
+    {
+      "company": "QuantumDesk",
+      "name": "Mia Clark",
+      "title": "VP Sales"
+    },
+    {
+      "company": "PrairieSec",
+      "name": "Henry Walker",
+      "title": "CTO"
+    },
+    {
+      "company": "PrairieSec",
+      "name": "Amelia Hall",
+      "title": "CISO"
+    },
+    {
+      "company": "OrbitHR",
+      "name": "Benjamin Young",
+      "title": "VP Sales"
+    },
+    {
+      "company": "OrbitHR",
+      "name": "Charlotte King",
+      "title": "CTO"
+    },
+    {
+      "company": "LumenFlow",
+      "name": "Alexander Wright",
+      "title": "CTO"
+    },
+    {
+      "company": "LumenFlow",
+      "name": "Harper Scott",
+      "title": "VP Sales"
+    },
+    {
+      "company": "AtlasIQ",
+      "name": "Michael Green",
+      "title": "CISO"
+    },
+    {
+      "company": "AtlasIQ",
+      "name": "Evelyn Adams",
+      "title": "VP Sales"
+    },
+    {
+      "company": "RedwoodPay",
+      "name": "Daniel Miller",
+      "title": "CTO"
+    },
+    {
+      "company": "RedwoodPay",
+      "name": "Grace Baker",
+      "title": "CISO"
+    }
+  ],
+  "evidence": [
+    {
+      "company": "Northstar Cloud",
+      "claim_field": "employee_count",
+      "observed_value": "250-500",
+      "source_url": "https://northstarcloud.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "Northstar Cloud",
+      "claim_field": "industry",
+      "observed_value": "B2B SaaS",
+      "source_url": "https://northstarcloud.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "Northstar Cloud",
+      "claim_field": "location",
+      "observed_value": "Austin, USA",
+      "source_url": "https://northstarcloud.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "Northstar Cloud",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://northstarcloud.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "Northstar Cloud",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://northstarcloud.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 20,
+      "conflict_note": null
+    },
+    {
+      "company": "MapleOps",
+      "claim_field": "employee_count",
+      "observed_value": "100-250",
+      "source_url": "https://mapleops.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "MapleOps",
+      "claim_field": "industry",
+      "observed_value": "B2B SaaS",
+      "source_url": "https://mapleops.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "MapleOps",
+      "claim_field": "location",
+      "observed_value": "Toronto, Canada",
+      "source_url": "https://mapleops.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "MapleOps",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://mapleops.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "MapleOps",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://mapleops.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 23,
+      "conflict_note": null
+    },
+    {
+      "company": "SignalForge",
+      "claim_field": "employee_count",
+      "observed_value": "500-1000",
+      "source_url": "https://signalforge.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "SignalForge",
+      "claim_field": "industry",
+      "observed_value": "B2B SaaS",
+      "source_url": "https://signalforge.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "SignalForge",
+      "claim_field": "location",
+      "observed_value": "New York, USA",
+      "source_url": "https://signalforge.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "SignalForge",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://signalforge.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "SignalForge",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://signalforge.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 26,
+      "conflict_note": null
+    },
+    {
+      "company": "BlueLedger",
+      "claim_field": "employee_count",
+      "observed_value": "250-500",
+      "source_url": "https://blueledger.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "BlueLedger",
+      "claim_field": "industry",
+      "observed_value": "FinTech SaaS",
+      "source_url": "https://blueledger.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "BlueLedger",
+      "claim_field": "location",
+      "observed_value": "Boston, USA",
+      "source_url": "https://blueledger.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "BlueLedger",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://blueledger.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "BlueLedger",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://blueledger.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 29,
+      "conflict_note": null
+    },
+    {
+      "company": "HarborStack",
+      "claim_field": "employee_count",
+      "observed_value": "100-250",
+      "source_url": "https://harborstack.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "HarborStack",
+      "claim_field": "industry",
+      "observed_value": "DevOps SaaS",
+      "source_url": "https://harborstack.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "HarborStack",
+      "claim_field": "location",
+      "observed_value": "Seattle, USA",
+      "source_url": "https://harborstack.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "HarborStack",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://harborstack.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "HarborStack",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://harborstack.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 32,
+      "conflict_note": null
+    },
+    {
+      "company": "CedarCRM",
+      "claim_field": "employee_count",
+      "observed_value": "500-1000",
+      "source_url": "https://cedarcrm.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "CedarCRM",
+      "claim_field": "industry",
+      "observed_value": "Sales SaaS",
+      "source_url": "https://cedarcrm.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "CedarCRM",
+      "claim_field": "location",
+      "observed_value": "Vancouver, Canada",
+      "source_url": "https://cedarcrm.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "CedarCRM",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://cedarcrm.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "CedarCRM",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://cedarcrm.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 35,
+      "conflict_note": null
+    },
+    {
+      "company": "QuantumDesk",
+      "claim_field": "employee_count",
+      "observed_value": "100-250",
+      "source_url": "https://quantumdesk.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "QuantumDesk",
+      "claim_field": "industry",
+      "observed_value": "B2B SaaS",
+      "source_url": "https://quantumdesk.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "QuantumDesk",
+      "claim_field": "location",
+      "observed_value": "Chicago, USA",
+      "source_url": "https://quantumdesk.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "QuantumDesk",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://quantumdesk.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "QuantumDesk",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://quantumdesk.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 38,
+      "conflict_note": null
+    },
+    {
+      "company": "PrairieSec",
+      "claim_field": "employee_count",
+      "observed_value": "250-500",
+      "source_url": "https://prairiesec.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "PrairieSec",
+      "claim_field": "industry",
+      "observed_value": "Cybersecurity SaaS",
+      "source_url": "https://prairiesec.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "PrairieSec",
+      "claim_field": "location",
+      "observed_value": "Calgary, Canada",
+      "source_url": "https://prairiesec.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "PrairieSec",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://prairiesec.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "PrairieSec",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://prairiesec.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 41,
+      "conflict_note": null
+    },
+    {
+      "company": "OrbitHR",
+      "claim_field": "employee_count",
+      "observed_value": "500-1000",
+      "source_url": "https://orbithr.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "OrbitHR",
+      "claim_field": "industry",
+      "observed_value": "HR SaaS",
+      "source_url": "https://orbithr.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "OrbitHR",
+      "claim_field": "location",
+      "observed_value": "San Francisco, USA",
+      "source_url": "https://orbithr.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "OrbitHR",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://orbithr.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "OrbitHR",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://orbithr.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 44,
+      "conflict_note": null
+    },
+    {
+      "company": "LumenFlow",
+      "claim_field": "employee_count",
+      "observed_value": "100-250",
+      "source_url": "https://lumenflow.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "LumenFlow",
+      "claim_field": "industry",
+      "observed_value": "Workflow SaaS",
+      "source_url": "https://lumenflow.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "LumenFlow",
+      "claim_field": "location",
+      "observed_value": "Denver, USA",
+      "source_url": "https://lumenflow.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "LumenFlow",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://lumenflow.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "LumenFlow",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://lumenflow.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 47,
+      "conflict_note": null
+    },
+    {
+      "company": "AtlasIQ",
+      "claim_field": "employee_count",
+      "observed_value": "250-500",
+      "source_url": "https://atlasiq.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "AtlasIQ",
+      "claim_field": "industry",
+      "observed_value": "Analytics SaaS",
+      "source_url": "https://atlasiq.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "AtlasIQ",
+      "claim_field": "location",
+      "observed_value": "Miami, USA",
+      "source_url": "https://atlasiq.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "AtlasIQ",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://atlasiq.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "AtlasIQ",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://atlasiq.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 50,
+      "conflict_note": null
+    },
+    {
+      "company": "RedwoodPay",
+      "claim_field": "employee_count",
+      "observed_value": "500-1000",
+      "source_url": "https://redwoodpay.example/about",
+      "evidence_type": "observed",
+      "confidence_score": 0.94,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "RedwoodPay",
+      "claim_field": "industry",
+      "observed_value": "FinTech SaaS",
+      "source_url": "https://redwoodpay.example/product",
+      "evidence_type": "observed",
+      "confidence_score": 0.92,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "RedwoodPay",
+      "claim_field": "location",
+      "observed_value": "San Diego, USA",
+      "source_url": "https://redwoodpay.example/contact",
+      "evidence_type": "observed",
+      "confidence_score": 0.9,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "RedwoodPay",
+      "claim_field": "tech_stack",
+      "observed_value": "AWS + PostgreSQL + React",
+      "source_url": "https://redwoodpay.example/engineering",
+      "evidence_type": "observed",
+      "confidence_score": 0.84,
+      "age_days": 10,
+      "conflict_note": null
+    },
+    {
+      "company": "RedwoodPay",
+      "claim_field": "buying_intent",
+      "observed_value": "Active evaluation signal",
+      "source_url": "https://redwoodpay.example/careers",
+      "evidence_type": "observed",
+      "confidence_score": 0.82,
+      "age_days": 53,
+      "conflict_note": null
+    },
+    {
+      "company": "Northstar Cloud",
+      "claim_field": "employee_count",
+      "observed_value": "120",
+      "source_url": "https://directory.example/northstar",
+      "evidence_type": "conflicting",
+      "confidence_score": 0.48,
+      "age_days": 12,
+      "conflict_note": "Conflicts with company-reported 250-500."
+    },
+    {
+      "company": "MapleOps",
+      "claim_field": "location",
+      "observed_value": "New York, USA",
+      "source_url": "https://directory.example/mapleops",
+      "evidence_type": "conflicting",
+      "confidence_score": 0.45,
+      "age_days": 9,
+      "conflict_note": "Conflicts with company-reported Toronto, Canada."
+    },
+    {
+      "company": "BlueLedger",
+      "claim_field": "buying_intent",
+      "observed_value": "Hiring signal observed 220 days ago",
+      "source_url": "https://blueledger.example/careers/archive",
+      "evidence_type": "stale",
+      "confidence_score": 0.55,
+      "age_days": 220,
+      "conflict_note": null
+    },
+    {
+      "company": "OrbitHR",
+      "claim_field": "buying_intent",
+      "observed_value": "Expansion signal observed 240 days ago",
+      "source_url": "https://orbithr.example/news/archive",
+      "evidence_type": "stale",
+      "confidence_score": 0.5,
+      "age_days": 240,
+      "conflict_note": null
+    },
+    {
+      "company": "LumenFlow",
+      "claim_field": "buying_intent",
+      "observed_value": "No verified intent signal",
+      "source_url": "https://lumenflow.example/news",
+      "evidence_type": "derived",
+      "confidence_score": 0.3,
+      "age_days": 3,
+      "conflict_note": null
+    },
+    {
+      "company": "QuantumDesk",
+      "claim_field": "tech_stack",
+      "observed_value": "Not independently verified",
+      "source_url": "https://quantumdesk.example/",
+      "evidence_type": "derived",
+      "confidence_score": 0.3,
+      "age_days": 3,
+      "conflict_note": null
+    }
+  ]
+}

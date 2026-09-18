@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Standard North America 100-1000 SaaS happy path"
+  },
+  {
+    "id": 2,
+    "name": "Broad/vague prompt handling"
+  },
+  {
+    "id": 3,
+    "name": "Constrained zero-result query"
+  },
+  {
+    "id": 4,
+    "name": "Conflicting evidence detection & penalty"
+  },
+  {
+    "id": 5,
+    "name": "Stale evidence degradation"
+  },
+  {
+    "id": 6,
+    "name": "Unbounded query budget protection"
+  },
+  {
+    "id": 7,
+    "name": "Deterministic score reproducibility"
+  },
+  {
+    "id": 8,
+    "name": "Async enrichment row retry idempotency"
+  },
+  {
+    "id": 9,
+    "name": "Malformed planner output recovery"
+  },
+  {
+    "id": 10,
+    "name": "CSV export data integrity"
+  }
+]
